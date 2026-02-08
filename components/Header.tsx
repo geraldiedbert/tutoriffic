@@ -18,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({ user, onLogout }) => {
             <div className="w-8 h-8 text-sunset-orange">
                 <Logo />
             </div>
-            <span className="ml-3 text-xl font-semibold text-sunset-heading">Tutorio</span>
+            <span className="ml-3 text-xl font-semibold text-sunset-heading">Tutoriffic</span>
           </div>
           <div className="flex items-center space-x-4">
             <div className="text-right">

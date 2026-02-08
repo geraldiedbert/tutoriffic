@@ -51,7 +51,7 @@ const App: React.FC = () => {
             <div className="w-20 h-20 mb-6 text-sunset-orange">
                 <Logo />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-sunset-heading mb-4">Welcome to Tutorio</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-sunset-heading mb-4">Welcome to Tutoriffic</h1>
             <p className="text-lg text-sunset-subtle-text max-w-xl mb-10">
                 A personalized tutoring marketplace. Connect with amazing tutors and schedule sessions with zero friction.
             </p>

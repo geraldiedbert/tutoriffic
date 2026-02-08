@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Tutoriffic
 
-# Run and deploy your AI Studio app
+A personalized tutoring marketplace. Connect with tutors, browse courses, and schedule sessions.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1OcpOKmu9CLptSi2KJfzV0-fxsymahXsZ
+- **Dual roles** — Sign in as a **student** or **tutor**
+- **Student experience** — Dashboard, browse courses, track video progress, view your courses, and schedule sessions with tutors
+- **Tutor experience** — Dashboard, manage your courses and video lessons, view your students, and handle scheduling
+- **Course detail** — View course info and videos with completion tracking
+- **Scheduling** — Book and manage tutoring sessions
 
-## Run Locally
+## Tech
 
-**Prerequisites:**  Node.js
+- **React** 19  
+- **TypeScript**  
+- **Vite**  
+- **Tailwind CSS**
 
+## Run locally
+
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Start the dev server:
+   ```bash
+   npm run dev
+   ```
+3. Open the URL shown in the terminal (e.g. `http://localhost:5173`).
+
+## Scripts
+
+- `npm run dev` — Start development server
+- `npm run build` — Production build
+- `npm run preview` — Preview production build locally
