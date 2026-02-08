@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorio Tutoring Marketplace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'sunset-bg': '#FFFBF8',
+              'sunset-card': '#FFFFFF',
+              'sunset-pink': '#FFACC7',
+              'sunset-orange': '#FF8C42',
+              'sunset-purple': '#A076F9',
+              'sunset-deep-purple': '#673ab7',
+              'sunset-text': '#4A4A4A',
+              'sunset-heading': '#2E2E2E',
+              'sunset-subtle-text': '#717171',
+              'sunset-border': '#F1ECE8',
+              'sunset-hover': '#F9F5F2',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            borderRadius: {
+              'lg': '0.75rem',
+              'xl': '1rem',
+              '2xl': '1.5rem',
+            },
+            boxShadow: {
+                'subtle': '0 4px 12px rgba(0,0,0,0.04)',
+                'card': '0 2px 8px rgba(0,0,0,0.05)',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+            animation: {
+              fadeIn: 'fadeIn 0.5s ease-out forwards',
+            },
+          },
+        },
+      }
+    </script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "Tutorio",
+  "description": "A bright and minimalistic tutoring marketplace where tutors can upload course content and schedule sessions, and students can learn and track their progress.",
+  "requestFramePermissions": []
+}
